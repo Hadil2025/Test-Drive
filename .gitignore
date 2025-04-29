@@ -1,0 +1,4 @@
+service-account/
+node_modules
+.env
+uploads/
