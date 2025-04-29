@@ -51,7 +51,7 @@ async function uploadToGoogleDrive(filePath, fileName) {
 
 
 
-const PORT = process.env.port; // Define the port number for the server
+const PORT = process.env.PORT; // Define the port number for the server
 
 const app = express(); // Create an instance of the Express application
 
