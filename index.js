@@ -51,7 +51,7 @@ async function uploadToGoogleDrive(filePath, fileName) {
 
 
 
-const port = process.env.port; // Define the port number for the server
+const PORT = process.env.port; // Define the port number for the server
 
 const app = express(); // Create an instance of the Express application
 
@@ -107,6 +107,6 @@ app.post('/upload', upload.array('files'), async (req, res) => {
 });
 
 // Start the server and listen on the specified port
-app.listen(port, () => {
-    console.log(`Server is running on ${port}`); // Log a message indicating the server is running
+app.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}`); // Log a message indicating the server is running
 });
